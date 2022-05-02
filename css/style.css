@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+}
+
+.carrusel {
+    margin-top: 56px;
+}
+
+.noticias {
+    padding: 30px;
+    background-color: black;
+}
+
+.noticias__titulo {
+    color: white;
+}
+
+.noticias__imgBox {
+    width: 150px;
+    height: 150px;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+.noticias__img {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.listcolor {
+    background-color: white;
+    padding: 20px;
+}

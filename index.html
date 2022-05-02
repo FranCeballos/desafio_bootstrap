@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fútbol+ | Home</title>
+    <title>RM News | Home</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
-    <header>
+    <header class="header">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="/index.html">Fútbol+</a>
+            <a class="navbar-brand" href="/index.html">Real Madrid News</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -19,24 +19,24 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="/pages/laliga.html">La Liga<span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="/pages/estadisticas.html">Estadísticas<span class="sr-only">(current)</span></a>
                 </li>
             </div>
         </nav>
     </header>
     
     <main>
-        <section class="">
+        <section class="carrusel">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="d-block w-100" src="/images/Ligagrass.png" alt="First slide">
+                    <img class="d-block w-100" src="/images/grassespecial.png" alt="First slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="/images/Premieregrass.png" alt="Second slide">
+                    <img class="d-block w-100" src="/images/grassmuseo.png" alt="Second slide">
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block w-100" src="/images/Bundesgrass.png" alt="Third slide">
+                    <img class="d-block w-100" src="/images/grassbernabeu.png" alt="Third slide">
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -49,8 +49,71 @@
                 </a>
               </div>
         </section>
-        
-        
+
+        <!-- Noticias principales -->
+        <section class="noticias">
+            <h1 class="display-4 noticias__titulo">Noticias</h1>
+            <div class="card-group">
+                <div class="card">
+                  <img class="card-img-top" src="/images/madridCampeones.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Un Real Ganador</h5>
+                    <p class="card-text">Los merengues ganan su liga 35. Ancelotti, el primer entrenador en conquistar las cinco grandes competiciones nacionales del fútbol internacional. </p>
+                    <p class="card-text"><small class="text-muted">30 de abril del 2022</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="/images/karim.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Denle ya el balón de oro.</h5>
+                    <p class="card-text">Karim demuestra partido tras partido que este puede ser su año.</p>
+                    <p class="card-text"><small class="text-muted">30 de abril del 2022</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="/images/mbappe.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Mbappe, cada vez más cerca.</h5>
+                    <p class="card-text">Si el plan fuera quedarse, ¿no se hubiera resuelto antes?</p>
+                    <p class="card-text"><small class="text-muted">30 de abril del 2022</small></p>
+                  </div>
+                </div>
+            </div>
+        </section>  
+
+        <!-- Noticias secundarias -->
+        <section class="noticias">
+            <ul class="list-unstyled listcolor">
+                <li class="media">
+                    <div class="noticias__imgBox">
+                        <img class="mr-3 noticias__img" src="/images/construccion.jpeg" alt="Bernabeu en construccion">
+                    </div>
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">Avanzan las obras del nuevo Santiago Bernabeu.</h5>
+                        <p>El nuevo estadio va cobrando forma con el paso de los meses. El mejor estadio del mundo, será aun mejor. </p>
+                    </div>
+                </li>
+                <li class="media my-4">
+                    <div class="noticias__imgBox">
+                        <img class="mr-3 noticias__img" src="/images/alaba.jpeg" alt="Alaba">
+                    </div>
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">Alaba no llega para el miercoles.</h5>
+                        <p>El equipo deberá hacer frente al City sin él. Nacho es la alternativa más probable.</p>
+                    </div>
+                </li>
+                <li class="media">
+                    <div class="noticias__imgBox">
+                        <img class="mr-3 noticias__img" src="/images/champions.png" alt="Generic placeholder image">
+                    </div>
+                    <div class="media-body">
+                        <h5 class="mt-0 mb-1">Juntos podemos.</h5>
+                        <p>Real Madrid, noche de Champions y Santiago Bernabeu, ambiente incomparable.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+            
 
     </main>
 
