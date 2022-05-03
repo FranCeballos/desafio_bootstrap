@@ -72,3 +72,26 @@
     text-align: center;
     margin-top: 150px;
 }
+
+.tableBox {
+    padding: 40px;
+}
+
+.logoReal {
+    width: 125px;
+    height: 174.86px;
+    margin-bottom: 20px;
+}
+
+.plantilla {
+    width: 346.86px;
+    height: 250px;
+}
+
+.imgFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
